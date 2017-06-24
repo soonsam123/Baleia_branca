@@ -1,0 +1,47 @@
+body{
+	font-size: 16px;
+}
+#menuhorizontal{
+	background-color: green;
+	height:30px;
+	font-size: 20px;
+}
+#menuhorizontal ul{
+	list-style-type: none; 
+	text-align: center;
+}
+#menuhorizontal ul li{
+	display:inline;
+	padding:50px;
+	vertical-align:middle;
+}
+#menuhorizontal ul li a{
+	color:white;
+	text-decoration:none;
+	padding:8px 8px 8px 8px;
+}
+#menuhorizontal ul li a:hover{
+	color:black;
+	background-color: white;
+}
+#flayer{
+	margin-top: 40px;
+	border:solid 2px black;
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 220px;
+}
+#materiabb{
+	line-height: 25px;
+}
+.imgresultados{
+	border: solid 2px black;
+	margin:100px;
+	display:inline;
+}
+.descricao{
+	float:bottom;
+}
+#escolas{
+	margin-left: 100px;
+}
