@@ -1,6 +1,9 @@
+/*============LAYOUT SECTION==========*/
 body{
 	font-size: 16px;
+	background-color: #e5ef74;
 }
+               /*========MENU HORIZONTAL===========*/
 #menuhorizontal{
 	background-color: green;
 	height:30px;
@@ -24,6 +27,7 @@ body{
 	color:black;
 	background-color: white;
 }
+			    /*========FLAYER===========*/
 #flayer{
 	margin-top: 40px;
 	border:solid 2px black;
@@ -31,17 +35,120 @@ body{
 	margin-right: 20px;
 	margin-bottom: 220px;
 }
+				/*========MATERIABB===========*/
 #materiabb{
 	line-height: 25px;
 }
+				/*========IMAGES===========*/
 .imgresultados{
 	border: solid 2px black;
 	margin:100px;
 	display:inline;
 }
+				/*========DESCRICAO===========*/
 .descricao{
 	float:bottom;
 }
+				/*========ESCOLAS===========*/
 #escolas{
 	margin-left: 100px;
+}
+/*===============HEADING SECTION===============*/
+h1{
+	font-family: Arial;
+}
+/*================FORM SECTION==================*/
+.row{
+	display:table-row;
+}
+.row label{
+	display:table-cell;
+	text-align: right;
+	padding:2px;
+}
+.row input{
+	display:table-cell;
+	padding:2px;
+}
+#estado{
+	margin-left: 90px;
+}
+#cadastro{
+	background-color: pink;
+	padding:15px;
+	margin:10px;
+	border:solid 2px black;
+	border-radius:4px;
+	width:400px;
+	float:left;
+}
+#pesquisa{
+	background-color: pink;
+	padding:15px;
+	margin:10px;
+	border:solid 2px black;
+	border-radius:4px;
+	width:400px;
+	float:left;
+}
+/*==============DESAFIOS SECTION===============*/
+.desafios{
+	border:2px solid black;
+	margin-top: 20px;
+}
+/*============MENU VERTICAL================*/
+#menuvertical ul{
+	list-style: none;
+	margin:10px;
+	margin-right: 290px;
+	padding:50px;	
+	float:right;
+}
+#menuvertical ul li a{
+	text-decoration: none;
+	background-color: rgb(82,103,248);
+	color:white;
+	display:block;
+	width: 190px;
+	margin:5px;
+	padding:10px;
+	border:2px solid pink;
+	border-radius: 10px;
+	text-align: center;
+	height:25px;
+	line-height: 25px;
+}
+#menuvertical ul li a:hover{
+	background-color: #d3d3d3;
+	color:black;
+}
+#checkbox{
+	width: 50px;
+	height: 50px;
+	border:2px solid pink;
+	border-radius: 5px;
+	position:relative;
+	left:400px;
+	top:30px;
+}
+#numeros ul{
+	clear:both;
+	list-style-type: none;
+}
+#numeros ul li{
+	display:inline;
+	background-color: rgb(71,165,120);
+	border:2px solid black;
+	padding:10px;
+	border-radius:5px;
+}
+#numeros ul li a{
+	text-decoration: none;
+	color:white;
+	padding:.2em 1em;
+}
+#numeros ul li a:hover{
+	background:#fff;
+	color:#000;
+	border-radius: 5px;
 }
